@@ -14,6 +14,7 @@ export default {
     test(a, b) {
       console.log(a, b);
       const b = '1';
+      let b = '2';
       const c = 1;
     }
   }
