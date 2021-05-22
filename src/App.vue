@@ -11,11 +11,11 @@
 <script>
 export default {
   methods: {
-    test(a, b) {
-      console.log(a, b);
-      const b = '1';
-      let b = '2';
-      const c = 1;
+    test(a, b) { 
+      console.log(a, b); 
+      const b = '1'; 
+      let b = '2'; 
+      const c = 1; 
     }
   }
 };
