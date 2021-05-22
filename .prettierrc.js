@@ -1,7 +1,7 @@
 module.exports = {
   tabWidth: 2,
   useTabs: false,
-  printWidth: 80,// 一行最大多少字符
+  printWidth: 80, // 一行最大多少字符
   semi: true,
   singleQuote: true,
   trailingComma: 'none',
@@ -10,7 +10,7 @@ module.exports = {
   arrowParens: 'avoid',
   requirePragma: false,
   proseWrap: 'preserve'
-};
+}
 // {
 //   "printWidth": 120, // 一行最大多少字符
 //   "tabWidth": 2, // tab占用的字符数
@@ -23,7 +23,6 @@ module.exports = {
 //   "jsxBracketSameLine": false, //看官网
 //   "arrowParens": "always" //剪头函数参数是否使用（）
 // }
-
 
 // "tabWidth": 2,
 // "useTabs": false,

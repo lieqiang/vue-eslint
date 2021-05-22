@@ -3,4 +3,3 @@
 
 # npm test
 # npx --no-install pretty-quick --staged
-npx  eslint
