@@ -4,20 +4,20 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
 export default {
   methods: {
-    test (a,b) {
-      console.log(a, b) 
-      const b = '1' 
-      const c =1
+    test(a, b) {
+      console.log(a, b);
+      const b = '1';
+      const c = 1;
     }
   }
-}
+};
 </script>
 <style>
 #app {
