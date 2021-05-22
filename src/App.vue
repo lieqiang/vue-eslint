@@ -8,6 +8,16 @@
   </div>
 </template>
 
+<script>
+export default {
+  methods: {
+    test (a, b) {
+      console.log(a, b)
+      const b = '1'
+    }
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
