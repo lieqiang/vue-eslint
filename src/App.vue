@@ -1,31 +1,27 @@
 <template>
-  <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view />
-  </div>
+	<div id="app">
+		<div id="nav">
+			<router-link to="/">Home</router-link> |
+			<router-link to="/about">About</router-link>
+		</div>
+		<router-view />
+	</div>
 </template>
 
 <script>
 export default {
+  data () {
+    return {
+      name: 'aa'
+    }
+  },
   methods: {
-    test(a, b) {   
-      console.log(a, b);    
-      const b = '1';  
-
-      
-      let b = "2";  
-      const c = 1;   
-      
-      
-
-
-
+    test (a, b) {
+      console.log('b')
+      console.log(a, b)
     }
   }
-};
+}
 </script>
 <style>
 #app {
